@@ -1,0 +1,111 @@
+/*_______services________*/
+.services-card{
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.card-content h2{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: .4rem 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card-content p{
+    margin-bottom: 1rem;
+    color: #4e4e4e;
+}
+
+.card-icon{
+    margin-bottom: 1rem;
+}
+
+.card-icon i{
+    border:8px solid #0078ff;
+    border-radius: 50%;
+    padding:20px;
+    font-size: 40px;
+}
+.card-icon i:hover{
+    background-color: #0078ff;
+    color:white;
+    border-color: #cde1f8;
+}
+.services-progress .container .row{
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+.bg-imag{
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.hover-services{
+    background-color: rgba(0,122,255,0.5);
+}
+
+.progress-icon{
+    margin-bottom: 1rem;
+}
+
+.progress-icon i{
+    border:8px solid #cde1f8;
+    border-radius: 50%;
+    padding:12px;
+    font-size: 30px;
+}
+
+/*__________Work___________*/
+
+.work-content{
+    padding: 2rem 3% 1rem 4%;
+}
+.caption-content h2{
+    font-size: 1.2rem;
+    color: #1e1e1e;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.caption-content .str1{
+    color: #0078ff;
+    font-size: .8rem;
+}
+
+.caption-content .str2{
+    color: #4e4e4e;
+    font-size: .8rem;
+}
+.plus-icon i{
+    color: #0078ff;
+    border: 3px solid #0078ff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.work-hover{
+    background-color: rgba(0,122,255,0.5);
+}
+
+.auther{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.txt-scroll{
+    color: #fff;
+    text-align: center;
+}
+.txt-scroll p{
+    color: #fff;
+    text-align: center;
+}
