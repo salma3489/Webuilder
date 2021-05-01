@@ -1,3 +1,196 @@
+
+.header-p
+{font-size: 40;font-weight: 500;margin:20 auto 0;position: relative;text-align: center;width: fit-content;}
+
+.header-p::after
+{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    animation: word 12s  infinite    ;
+}
+@keyframes word 
+{
+    /* Developer| Freelancer|Designer| */
+
+    2%{content: "D|";}
+    4%{content: "De|";}
+    6%{content: "Des|";}
+    8%{content: "Desi|";}
+    10%{content: "Desig|";}
+    12%{content: "Design|";}
+    14%{content: "Designe|";}
+    16%{content: "Designer|";}
+    18%{content: "Designe|";}
+    20%{content: "Design|";}
+    22%{content: "Desig|";}
+    24%{content: "Desi|";}
+    26%{content: "Des|";}
+    28%{content: "De|";}
+    30%{content: "D|";}
+
+    32%{content: "De|";}
+    34%{content: "Dev|";}
+    36%{content: "Deve|";}
+    38%{content: "Devel|";}
+    40%{content: "Develo|";}
+    42%{content: "Develop|";}
+    44%{content: "Developer|";}
+    46%{content: "Develope|";}
+    48%{content: "Develop|";}
+    50%{content: "Develo|";}
+    52%{content: "Devel|";}
+    54%{content: "Deve|";}
+    56%{content: "Dev|";}
+    58%{content: "De|";}
+    60%{content: "D|";}   
+
+
+    62%{content: "F|";}
+    64%{content: "Fr|";}
+    66%{content: "Free|";}
+    68%{content: "Freel|";}
+    70%{content: "Freela|";}
+    72%{content: "Freelan|";}
+    74%{content: "Freelanc|";}
+    76%{content: "Freelancer|";}
+    78%{content: "Freelance|";}
+    80%{content: "Freelanc|";}
+    83%{content: "Freelan|";}
+    86%{content: "Freela|";}
+    89%{content: "Freel|";}
+    92%{content: "Free|";}
+    95%{content: "Fre|";}
+    97%{content: "Fr|";}
+    100%{content: "F|";}
+
+
+
+}
+
+@keyframes word2
+{
+    /* Developer| Freelancer|Designer| */
+
+    5%{content: "D|";}
+    10%{content: "De|";}
+    15%{content: "Dev|";}
+    25%{content: "Deve|";}
+    35%{content: "Devel|";}
+    45%{content: "Develo|";}
+    55%{content: "Develop|";}
+    100%{content: "Developer|";}
+}
+
+
+nav
+{
+    position: relative;
+    z-index: 5000;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255);
+  font-size: 28;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+.nav-link,
+.navbar-brand {
+  font-family: system-ui;
+  font-weight: 500;
+  position: relative;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item:first-child ::before
+{
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color:white;
+  bottom: -6;
+  width: 50%;
+}
+
+.nav-item:not(:nth-child(1)):before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color:white;
+    bottom: -6;
+    margin-left: 15px;
+    width: 0%;
+    transition: ease-in-out .4s all;
+}
+.nav-item:not(:nth-child(1)):hover::before {
+   
+    width: 58%;
+   transition: ease-in-out .4s all;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+padding: 0 15;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: white
+  }
+header {
+  background-image: url(../images/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 8 0;
+  position: relative;
+}
+.header-layer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+.header-content
+{
+    color: white;
+}
+.header-h1
+{
+    font-size: 65;
+}
+.navbar-toggler
+{color: white;background-color: white;}
+.navbar-toggler-icon 
+{
+    width: 1em;
+
+}
+/* ---------------------------------about------------------------------------------------------- */
+.about-space{background-color: #f5f5f5;box-sizing: border-box;padding-top: 64px;padding-bottom: 48;}
+.about{background-color: white;box-sizing: border-box;padding: 64px 48px 48px;box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);}
+.the-child1-row-child1 img{margin-left: 10px;}
+.the-child1-row-child2 li{color: black;font-size: 17.6px;font-weight: 600;margin-bottom: 16px;}
+.the-child1-row-child2 span{color: rgb(78, 78, 78);font-size:1rem;font-weight: 400;margin-left:5px;}
+.skils{margin:15px 0 0 10px}
+.skils-title{font-size: 17.6px;font-weight:600;color: black;margin-bottom:15;}
+.pross-title{margin-bottom:10;}
+.progress{margin-bottom: 15;height: 10;border-radius:0;}
+/* ******************************** child 2 ****************************** */
+.about-me{font-size:2rem;position: relative;margin-bottom: 48;}
+.about-me::after{content:"";position: absolute;bottom:-12;background-color: #0078ff;width:100;left: 0;height:3;}
+.child2-p{font-size: 20px;color:#4e4e4e;margin:0px 0px 16px;font-weight:300;}
 /*_______services________*/
 .services-card{
     background-color: #fff;
